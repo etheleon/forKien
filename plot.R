@@ -61,3 +61,5 @@ combinedPlot = ggdraw() +
 pdf("wesleyPlot.pdf", w=15, h=10)
 combinedPlot
 dev.off()
+
+ggsave(combinedPlot, file="wesleyPlot.png", w=15, h=10)
